@@ -44,7 +44,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="./favicon/favicon.ico" />
     <link rel="stylesheet" href="./src/output.css" />
-    <title>BNDescFinder</title>
+    <title>DescriptorSearch</title>
   </head>
 
   <body
@@ -102,7 +102,7 @@
               />
             </div>
             <div class="cstm-txt-shadow font-extrabold text-lg">
-              BNDescFinder
+              DescriptorSearch
             </div>
           </div>
         </a>
@@ -161,6 +161,29 @@
           />
         </div>
       </div>
+      <div
+        id="notification-banner"
+        class="bg-yellow-400 text-black p-4 text-center"
+      >
+        <p class="font-bold">
+          A new version of DescriptorSearch is now available!
+          <a
+            href="https://descriptorsearch.vercel.app/"
+            class="underline hover:text-blue-700"
+            >Try it now</a
+          >
+        </p>
+        <p class="text-sm mt-2">
+          This old version will no longer be updated. I recommend switching to
+          the new version for the best experience.
+        </p>
+        <button
+          onclick="closeNotification()"
+          class="mt-2 bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
+        >
+          Close
+        </button>
+      </div>
     </header>
 
     <!-- MAIN CONTAINER: Home and Descriptors Section -->
@@ -177,11 +200,11 @@
             <h1
               class="text-3xl w-full font-bold cstm-txt-shadow lg:text-5xl md:text-4xl"
             >
-              BNDescFinder
+              DescriptorSearch
             </h1>
             <p>
               Discover and access Business Name Descriptors effortlessly with
-              the BNDescFinder. This user-friendly platform simplifies PSIC
+              the DescriptorSearch. This user-friendly platform simplifies PSIC
               Descriptor search, sourced from BNRS, enabling you to know the
               registrable line or nature of your business with ease. Start
               searching now!
@@ -532,22 +555,22 @@
           <i class="fa-solid fa-xmark text-2xl md:text-3xl"></i>
         </a>
 
-        <h2 class="font-bold text-2xl sm:text-3xl">About BNDescFinder</h2>
+        <h2 class="font-bold text-2xl sm:text-3xl">About DescriptorSearch</h2>
 
         <p>
-          Welcome to <strong>BNDescFinder</strong>! This platform is a
+          Welcome to <strong>DescriptorSearch</strong>! This platform is a
           user-friendly, single-page website designed to help users easily
           explore and access available Business Name Descriptors.
         </p>
 
         <p>
-          BNDescFinder was initially developed for DTI-Rizal Negosyo Center
+          DescriptorSearch was initially developed for DTI-Rizal Negosyo Center
           Business Counsellors, aims to simplify the search process and provide
           an intuitive interface for individuals seeking PSIC Descriptors.
         </p>
 
         <p>
-          Please note that while the BNDescFinder is independently owned and
+          Please note that while the DescriptorSearch is independently owned and
           hosted by
           <a
             class="font-bold hover:underline"
@@ -577,8 +600,8 @@
         </p>
 
         <p>
-          Thank you for using the BNDescFinder. Explore, discover, and simplify
-          your search for Business Name Descriptors effortlessly!
+          Thank you for using the DescriptorSearch. Explore, discover, and
+          simplify your search for Business Name Descriptors effortlessly!
         </p>
 
         <!-- Back to Home -->
@@ -660,7 +683,7 @@
           class="flex flex-col justify-between gap-2 items-center p-6 max-w-7xl mx-auto w-full md:flex-row"
         >
           <p>
-            <strong>Copyright &copy; 2024 BNDescFinder.</strong> All rights
+            <strong>Copyright &copy; 2024 DescriptorSearch.</strong> All rights
             reserved.
           </p>
           <p class="version">Version: <strong>1.3.1</strong></p>
