@@ -161,28 +161,29 @@
           />
         </div>
       </div>
-      <div
-        id="notification-banner"
-        class="bg-yellow-400 text-black p-4 text-center"
-      >
-        <p class="font-bold">
-          A new version of DescriptorSearch is now available!
-          <a
-            href="https://descriptorsearch.vercel.app/"
-            class="underline hover:text-blue-700"
-            >Try it now</a
+      <div id="notification-banner" class="bg-yellow-400 text-gray-800 p-4">
+        <div class="flex justify-between w-full max-w-7xl mx-auto">
+          <div>
+            <p class="font-bold">
+              A new version of DescriptorSearch is now available!
+              <a
+                href="https://descriptorsearch.vercel.app/"
+                class="underline hover:text-blue-700"
+                >Try it now</a
+              >
+            </p>
+            <p class="text-sm mt-2">
+              This old version will no longer be updated. I recommend switching
+              to the new version for the best experience.
+            </p>
+          </div>
+          <button
+            onclick="closeNotification()"
+            class="text-gray-800 hover:text-black"
           >
-        </p>
-        <p class="text-sm mt-2">
-          This old version will no longer be updated. I recommend switching to
-          the new version for the best experience.
-        </p>
-        <button
-          onclick="closeNotification()"
-          class="mt-2 bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
-        >
-          Close
-        </button>
+            <i class="fa-solid fa-circle-xmark text-xl"></i>
+          </button>
+        </div>
       </div>
     </header>
 
